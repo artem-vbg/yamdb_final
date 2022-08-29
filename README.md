@@ -36,7 +36,16 @@ Python 3, Django 3, Django REST Framework, Docker, PostgreSQL, Simple-JWT, GIT.
 
 Склонируйте репозиторий на локальную машину:
 
-  `git clone https://github.com/artem-vbg/yamdb_final.git`
+  `git clone https://github.com/artem-vbg/yamdb_final`
+
+В папке infra необходимо создать файл .env и заполнить переменные окружения:
+  `SECRET_KEY`
+  `DB_ENGINE`
+  `DB_NAME`
+  `POSTGRES_USER`
+  `POSTGRES_PASSWORD`
+  `DB_HOST`
+  `DB_PORT`
 
 Запустите docker-compose:
 
@@ -68,6 +77,11 @@ API доступен по адресу [http://localhost/api/v1/](http://localho
 
 Скачать образ YaMDb из репозитория на DockerHub:
 
-  `docker pull artemhub/yamdb_final:v1`
+  `docker pull artemhub/yamdb_final`
 
 Также настроен workflow для автоматического разворачивания на сервере.
+
+### Разработчик проекта
+
+Автор: Artem Cherepan 
+GitHub accaunt: https://github.com/artem-vbg
