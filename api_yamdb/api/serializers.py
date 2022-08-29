@@ -1,8 +1,7 @@
-from rest_framework import serializers
 from django.contrib.auth import get_user_model
 from django.shortcuts import get_object_or_404
-from reviews.models import (Category, Genre, Title,
-                            Comment, Review) 
+from rest_framework import serializers
+from reviews.models import Category, Comment, Genre, Review, Title
 
 User = get_user_model()
 
