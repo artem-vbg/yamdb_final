@@ -30,7 +30,7 @@ jobs:
         pip install -r requirements.txt 
     - name: Test with flake8 and pytest
       run: |
-        python -m flake8 api/ titles/ api_yamdb/ --exclude tests/,*/migrations/,*/settings.py
+        python -m flake8 api_yamdb/ --exclude tests/,*/migrations/,*/settings.py
         pytest
   build_and_push_to_docker_hub:
     name: Push Docker image to Docker Hub
