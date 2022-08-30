@@ -59,7 +59,7 @@ Python 3, Django 3, Django REST Framework, Docker, PostgreSQL, Simple-JWT, GIT.
 
   `docker-compose exec web python manage.py collectstatic --no-input`
   
-Проект запущен и доступен по адресу [http://localhost/](http://localhost/).
+Проект запущен и доступен по адресу [http://51.250.104.214:8080/admin/].
 
 Создаем суперпользователя:
 
@@ -73,11 +73,11 @@ Python 3, Django 3, Django REST Framework, Docker, PostgreSQL, Simple-JWT, GIT.
 
   `docker-compose down`
 
-API доступен по адресу [http://localhost/api/v1/](http://localhost/api/v1/).
+API доступен по адресу [http://51.250.104.214:8080/api/v1/].
 
 Скачать образ YaMDb из репозитория на DockerHub:
 
-  `docker pull artemhub/yamdb_final`
+  `docker pull artemhub/yamdb_final:latest`
 
 Также настроен workflow для автоматического разворачивания на сервере.
 
