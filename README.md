@@ -1,6 +1,6 @@
 # yamdb_final
 
-[![yamdb workflow](https://github.com/artem-vbg/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?event=workflow_run)](https://github.com/artem-vbg/yamdb_final/actions/workflows/yamdb_workflow.yml)
+[![yamdb workflow](https://github.com/artem-vbg/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/artem-vbg/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
 # REST API Yamdb – база отзывов пользователей о произведениях.
 
