@@ -1,6 +1,6 @@
 # yamdb_final
 
-![example workflow](https://github.com/artem-vbg/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+[![yamdb workflow](https://github.com/artem-vbg/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/artem-vbg/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
 # REST API Yamdb – база отзывов пользователей о произведениях.
 
@@ -29,7 +29,7 @@ Python 3, Django 3, Django REST Framework, Docker, PostgreSQL, Simple-JWT, GIT.
    * Ресурс REVIEWS: отзывы на произведения.
    * Ресурс COMMENTS: комментарии к отзывам.
 
-Документация к API доступна по адресу http://localhost:8000/redoc/
+Документация к API доступна по адресу http://51.250.104.214:8080/redoc/
 
 ## Установка:
 Для работы приложения требуется установка на ваш компьютер [Python](https://www.python.org/downloads/), [Docker](https://hub.docker.com/editions/community/docker-ce-desktop-windows), [PostgreSQL](https://postgrespro.ru/windows).
